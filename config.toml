@@ -1,0 +1,40 @@
+baseURL = "https://docs-customine.gusuku.io/"
+theme = "docdock"
+
+disableHugoGeneratorInject = true
+DefaultContentLanguage = "ja"
+defaultContentLanguageInSubdir = true
+
+[params]
+  disableSearch = true
+  disableNavChevron = true
+
+[Languages]
+  [Languages.ja]
+  title = "gusuku Customine ドキュメント"
+  LanguageName = "日本語"
+  languageCode = "ja-jp"
+  weight = 1
+  [Languages.ja.params]
+  linkedin = "ja-link"
+
+  [Languages.en]
+  title = "Gusuku Customine docs"
+  LanguageName = "English"
+  languageCode = "en-us"
+  weight = 2
+  [Languages.en.params]
+  linkedin = "english-link"
+
+[outputFormats.Algolia]
+baseName = "algolia"
+isPlainText = true
+mediaType = "application/json"
+notAlternative = true
+
+[params.algolia]
+vars = ["title"]
+params = []
+
+[outputs]
+home = ["HTML", "RSS", "Algolia"]

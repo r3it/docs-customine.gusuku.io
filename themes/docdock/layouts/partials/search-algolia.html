@@ -1,0 +1,52 @@
+{{ $indexLang := .Page.Lang}}
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.8.0/dist/instantsearch.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.8.0/dist/instantsearch-theme-algolia.min.css">
+<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.8.0"></script>
+
+<div id="search-box">
+  <!-- SearchBox widget will appear here -->
+</div>
+
+<div id="hits">
+  <!-- ClearAll widget will appear here -->
+</div>
+
+<script>
+const search = instantsearch({
+  appId: '8TRC3N20SF',
+  apiKey: '073c9c6de6bfd1d208667e09cff4b1ba',
+  indexName: 'Customine.{{ $indexLang }}',
+  routing: true,
+  searchFunction: function(helper) {
+    if (helper.state.query === '') {
+      return;
+    }
+
+    helper.search();
+  }
+});
+
+
+  // initialize SearchBox
+  search.addWidget(
+    instantsearch.widgets.searchBox({
+      container: '#search-box',
+      placeholder: ''
+    })
+  );
+
+  // initialize hits widget
+  search.addWidget(
+    instantsearch.widgets.hits({
+      container: '#hits',
+      templates: {
+        empty: '<li style="color: white;">Not found</li>',
+	    item: '<li>{{ safeHTML "<a href=\"{{uri}}\">" }}{{ safeHTML "{{{ _highlightResult.title.value }}}" }}</a></li>'
+
+      }
+    })
+  );
+
+search.start();
+</script>

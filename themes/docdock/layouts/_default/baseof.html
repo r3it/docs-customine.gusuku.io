@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Global Site Tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-24363556-11"></script>
+    <script>
+    if (location.hostname == "docs-customine.gusuku.io") {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments)};
+      gtag('js', new Date());
+
+      gtag('config', 'UA-24363556-11');
+    }
+    </script>
+
+    {{if .Site.Params.themeStyle}}
+      {{ partial (printf "%s/head.html" .Site.Params.themeStyle) . }}
+    {{else}}
+      {{ partial "original/head.html" . }}
+    {{end}}
+  </head>
+  <body data-url="{{ .RelPermalink }}">
+    {{if .Site.Params.themeStyle}}
+      {{ partial (printf "%s/body-beforecontent.html" .Site.Params.themeStyle) . }}
+    {{else}}
+      {{ partial "original/body-beforecontent.html" . }}
+    {{end}}
+    
+    {{ block "main" . }}
+    {{ end }}
+    
+    {{if .Site.Params.themeStyle}}
+      {{ partial (printf "%s/body-aftercontent.html" .Site.Params.themeStyle) . }}
+    {{else}}
+      {{ partial "original/body-aftercontent.html" . }}
+    {{ end }}
+
+    {{ block "footer" . }}
+    {{ end }}
+
+    {{ partial "custom-footer.html" . }}
+  </body>
+</html>
