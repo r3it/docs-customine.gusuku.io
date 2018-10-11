@@ -1,5 +1,5 @@
 ---
-title: 現在の一覧が指定の一覧ならば
+title: If List Page is Specified View
 date: 2018-01-22T16:07:50+09:00
 weight: 1210
 ---

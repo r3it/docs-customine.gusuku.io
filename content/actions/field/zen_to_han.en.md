@@ -1,5 +1,5 @@
 ---
-title: 全角から半角へ変換する
+title: Convert from Full-width to Half-width
 date: 2018-01-22T16:07:50+09:00
 weight: 1470
 ---

@@ -1,5 +1,5 @@
 ---
-title: 複数フィールドが全て同じ条件を満たすならば
+title: If All Field Satisfy Same Condition
 date: 2018-01-22T16:07:50+09:00
 weight: 1100
 ---

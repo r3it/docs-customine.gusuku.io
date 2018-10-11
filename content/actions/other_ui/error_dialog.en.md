@@ -1,5 +1,5 @@
 ---
-title: エラーダイアログを表示する
+title: Display Error Dialog
 date: 2018-01-22T16:07:50+09:00
 weight: 1505
 ---

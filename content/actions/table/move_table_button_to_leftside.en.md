@@ -1,5 +1,5 @@
 ---
-title: 列増減ボタンを左端に移動する
+title: Move Row ADD / REMOVE Button to the Left Side
 date: 2018-01-22T16:07:50+09:00
 weight: 1680
 ---
@@ -9,7 +9,7 @@ Typically, you move the column increase/decrease buttons in the table on the rig
 
 The image should look like this after the move.
 
-![テーブル列増減ボタンを左端に移動](/images/ja/actions/table/move_table_button_to_leftside/1.png)
+![テーブル行増減ボタンを左端に移動](/images/ja/actions/table/move_table_button_to_leftside/1.png)
 
 ## How to use
 

@@ -1,5 +1,5 @@
 ---
-title: フィールドの値を四捨五入する
+title: Round Field Value
 date: 2018-01-22T16:07:50+09:00
 weight: 1450
 ---

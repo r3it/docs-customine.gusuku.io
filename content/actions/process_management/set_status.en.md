@@ -1,5 +1,5 @@
 ---
-title: ステータスを変更する（現在のレコード）
+title: Change Status (Current Record)
 date: 2018-01-22T16:07:50+09:00
 weight: 1710
 ---

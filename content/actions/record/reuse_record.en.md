@@ -1,5 +1,5 @@
 ---
-title: レコードを再利用する
+title: Reuse Record
 date: 2018-03-06T12:01:14+09:00
 weight: 1820
 ---

@@ -1,5 +1,5 @@
 ---
-title: 関連レコード一覧の条件でレコードを取得する
+title: Retrieve Records by Reference Table Condition
 date: 2018-03-06T12:03:01+09:00
 weight: 1750
 ---

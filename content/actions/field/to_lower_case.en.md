@@ -1,5 +1,5 @@
 ---
-title: 大文字を小文字に変換する
+title: Convert to Lowercase
 date: 2018-01-22T16:07:50+09:00
 weight: 1470
 ---

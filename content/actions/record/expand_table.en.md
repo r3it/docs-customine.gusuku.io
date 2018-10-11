@@ -1,5 +1,5 @@
 ---
-title: テーブル行を別アプリのレコードへ書き出す
+title: Write Table Row to Another App as Record
 date: 2018-01-22T16:07:50+09:00
 weight: 1780
 ---

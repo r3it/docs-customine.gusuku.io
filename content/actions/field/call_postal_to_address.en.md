@@ -1,5 +1,5 @@
 ---
-title: 郵便番号から住所を検索する(旧)
+title: Search Address from Zip Code(old)
 date: 2018-01-22T16:07:50+09:00
 weight: 1542
 ---

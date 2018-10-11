@@ -1,5 +1,5 @@
 ---
-title: フィールドに値をセットする
+title: Set Field Value
 date: 2018-01-22T16:07:50+09:00
 weight: 1400
 ---

@@ -1,5 +1,5 @@
 ---
-title: 一覧で画面に表示されているレコードを取得する
+title: Retrieve Record Displayed on List Page
 date: 2018-01-22T16:07:50+09:00
 weight: 1730
 ---

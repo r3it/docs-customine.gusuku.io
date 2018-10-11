@@ -1,5 +1,5 @@
 ---
-title: Averate of Field of Table
+title: Average of Field of Table
 date: 2018-01-22T16:07:50+09:00
 weight: 1000
 ---

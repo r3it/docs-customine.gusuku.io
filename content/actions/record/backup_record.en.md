@@ -1,5 +1,5 @@
 ---
-title: 編集中のレコードデータを退避する
+title: Backup Editing Record
 date: 2018-03-06T12:01:14+09:00
 weight: 1788
 ---

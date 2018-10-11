@@ -1,5 +1,5 @@
 ---
-title: 複数フィールドのうちどれか１つか条件を満たすならば
+title: If One Field Satisfy Condition
 date: 2018-01-22T16:07:50+09:00
 weight: 1110
 ---

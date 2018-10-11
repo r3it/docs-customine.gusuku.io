@@ -1,5 +1,5 @@
 ---
-title: レコードを並べ替える
+title: Sort Records
 date: 2018-03-06T12:01:14+09:00
 weight: 1810
 ---

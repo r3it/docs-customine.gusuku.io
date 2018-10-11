@@ -1,5 +1,5 @@
 ---
-title: 一覧で選択されたレコードを取得する
+title: Retrieve Selected Records on List Page
 date: 2018-01-22T16:07:50+09:00
 weight: 1740
 ---

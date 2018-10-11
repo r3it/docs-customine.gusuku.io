@@ -1,5 +1,5 @@
 ---
-title: テーブルから行を削除した時
+title: When Table Row Removed
 date: 2018-01-22T16:07:50+09:00
 weight: 1076
 ---

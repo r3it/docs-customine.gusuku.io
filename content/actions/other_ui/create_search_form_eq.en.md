@@ -1,5 +1,5 @@
 ---
-title: 一覧画面に簡易検索フォームを設置する
+title: Put Simple Search Form on List Page
 date: 2018-01-22T16:07:50+09:00
 weight: 1755
 ---

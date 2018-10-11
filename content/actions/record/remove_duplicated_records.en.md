@@ -1,5 +1,5 @@
 ---
-title: レコードから重複を除去する
+title: Remove Duplicated Records
 date: 2018-03-06T12:01:14+09:00
 weight: 1800
 ---

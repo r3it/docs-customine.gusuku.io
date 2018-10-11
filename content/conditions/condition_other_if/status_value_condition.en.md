@@ -1,5 +1,5 @@
 ---
-title: ステータスが特定の値ならば
+title: If Status is Specified
 date: 2018-03-06T15:41:48+09:00
 weight: 1020
 ---

@@ -1,5 +1,5 @@
 ---
-title: レコードをテーブルに書き出す
+title: Write the Record to the Subtable
 date: 2018-03-06T12:01:14+09:00
 weight: 1010
 ---

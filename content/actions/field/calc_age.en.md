@@ -1,5 +1,5 @@
 ---
-title: 年齢を計算する
+title: Calculate Age
 date: 2018-01-22T16:07:50+09:00
 weight: 1530
 ---

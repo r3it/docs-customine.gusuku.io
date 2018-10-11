@@ -1,5 +1,5 @@
 ---
-title: テーブルの列増減ボタンを非表示にする
+title: Hide Row ADD / REMOVE Button
 date: 2018-01-22T16:07:50+09:00
 weight: 1681
 ---

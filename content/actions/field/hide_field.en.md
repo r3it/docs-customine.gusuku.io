@@ -1,5 +1,5 @@
 ---
-title: フィールドやグループを非表示にする
+title: Hide Field or Group
 date: 2018-01-22T16:07:50+09:00
 weight: 1370
 ---

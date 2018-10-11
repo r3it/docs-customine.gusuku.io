@@ -1,5 +1,5 @@
 ---
-title: フィールドの文字を拡大縮小する
+title: Scale Field Font Size
 date: 2018-01-22T16:07:50+09:00
 weight: 1670
 ---

@@ -1,5 +1,5 @@
 ---
-title: 確認ダイアログを表示する
+title: Display Confirmation Dialog
 date: 2018-01-22T16:07:50+09:00
 weight: 1515
 ---

@@ -1,5 +1,5 @@
 ---
-title: 一覧の条件でレコードを全件取得する
+title: Retrieve All Record by List Page Condition
 date: 2018-01-22T16:07:50+09:00
 weight: 1735
 ---

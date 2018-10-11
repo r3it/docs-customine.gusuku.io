@@ -1,5 +1,5 @@
 ---
-title: 条件を指定してレコードを取得する
+title: Retrieve Records By Condition
 date: 2018-03-06T12:03:01+09:00
 weight: 1720
 ---

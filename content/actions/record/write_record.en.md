@@ -1,5 +1,5 @@
 ---
-title: レコードを書き出す
+title: Write Record
 date: 2018-01-22T16:07:50+09:00
 weight: 1778
 ---

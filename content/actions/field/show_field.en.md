@@ -1,5 +1,5 @@
 ---
-title: フィールドやグループを表示する
+title: Display Field or Group
 date: 2018-01-22T16:07:50+09:00
 weight: 1380
 ---

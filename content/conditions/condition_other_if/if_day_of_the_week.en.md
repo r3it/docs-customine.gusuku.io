@@ -1,5 +1,5 @@
 ---
-title: 指定の日付が指定の曜日ならば
+title: If Date is Specific Day-of-the-week
 date: 2018-03-26T14:53:50+09:00
 weight: 1100
 ---
