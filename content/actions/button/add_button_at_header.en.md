@@ -61,4 +61,4 @@ This allows you to customize the style of buttons by registering a css file in y
 
 “Right side of list screen menu” and “Bottom side of list screen menu” cannot be used outside of list screen.
 
-Only the bottom of the list screen menu is supported in the smartphone version app.
+“Right side of list screen menu” is not supported in the mobile version app.

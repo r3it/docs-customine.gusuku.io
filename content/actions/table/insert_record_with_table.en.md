@@ -86,7 +86,3 @@ The record will be moved to the edit screen when it is created, so if you press 
 If the app you are customizing differs from the kintone space of the app that creates the record, and the destination is guest space, you will get an error.
 
 When the “Screen Transition” parameter is set to “Open the edit screen of the created record in a separate tab”, the pop-up blocker function of the browser may block the tab. In that case, please allow pop-ups in your kintone domain in your browser settings.
-
-## Known Issues
-
-When used on the smartphone version of the screen, the transition destination of the screen transition becomes a list screen instead of an edit screen.
