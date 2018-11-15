@@ -23,6 +23,8 @@ Select the field to which you want to set the numbered values.
 
 The value of the field is set in a fematted state, such as zero padded.
 
+You can omit this parameter if you do not want to immediately set the value in the field, and you want to use the numbered value for another action.
+
 #### App Unit Numbering
 
 If you select None, the numbering will be sequential across the entire domain.

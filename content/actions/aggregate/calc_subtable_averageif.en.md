@@ -38,11 +38,16 @@ Compare Value to set the value against which the field value is compared.The com
 -	Results of other actions  
 	Compare to the result value of the registered action
 
-### About the Comparison Process
+##### About the Comparison Process
 
 -	When comparing, leading and trailing spaces are ignored.
 -	Strings are compared using Unicode values in standard lexical order.However, full-width, half-width and case are not sensitive.
 
+#### Field to set result (optional)
+
+Specify this when setting the calculation result to another field. If you do not set it in the direct field but want to use the calculation result in another action, you can omit it.
+
 ## Precautions
 
-This action does not round the calculation result. Separate [Round the value of a field](../../field/round4d5u_field/), and so on.
+It does not round calculation results here.
+Separate [Round the value of a field](../../field/round4d5u_field/), and so on.

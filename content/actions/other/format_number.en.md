@@ -11,6 +11,10 @@ Converts numeric data to the specified format.
 
 The source data of a number can refer to the results of a field or other action using an expression.
 
+If you want to put formatted results in another field, select that field in the "Set destination field (optional)" parameter.
+
+Instead of placing formatted results in the field immediately, if you want to use it in other actions, use mathematical expressions.
+
 The resulting string is set as the result of the action.
 
 If you want to retrieve the result, use an expression to reference this action in other actions.
@@ -88,3 +92,7 @@ If Decimal Places is specified, specifies whether to pad zero if less than the s
 If Decimal Places is not specified, this parameter is ignored.
 
 For example, if Decimal Places is 3 digits and the number is 0.5, the result is 0.500.
+
+#### Field to set result (optional)
+
+Specify this when setting the calculation result to another field. If you do not set it in the direct field but want to use the calculation result in another action, you can omit it.

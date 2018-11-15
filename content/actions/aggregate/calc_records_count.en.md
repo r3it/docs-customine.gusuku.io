@@ -13,6 +13,10 @@ Calculates the number of rows in a previously retrieved record. Calculated resul
 
 Set the Record Selection Action.
 
+#### Field to set result (optional)
+
+Specify this when setting the calculation result to another field. If you do not set it in the direct field but want to use the calculation result in another action, you can omit it.
+
 #### Record Selection Actions
 
 From the list of actions, select the action that retrieves the records you want to calculate.

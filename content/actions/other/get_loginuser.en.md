@@ -7,6 +7,16 @@ weight: 1600
 
 Gets information about the currently logged-in user.
 
+### Parameters to set
+
+Specify "Set destination field (optional)".
+
+#### Set destination field (optional)
+
+Specify this option when you set the acquired user in another field. If you do not set it in the direct field and you want to use the result in another action, you can omit it.
+
+If you set the destination to the user selection field, the other currently selected users are cleared and the login user is selected.
+
 ## How to use
 
 This action saves the logged-in user information as a result of the action.
@@ -36,10 +46,10 @@ In the following example, assume that you have obtained the login user with acti
 [Set a value in a field](../../field/set_field_value), type the Value parameter as follows:
 
 ```
-= $1.code
+= $1.email
 ```
 
-### (Example) Display name (such as full name) of the user logged in as “Welcome” in a space
+### (Example) Set the mail address of the user logged in the link field
 
 [Display characters in spaces](../../other_ui/add_label_at_spacer), type “Text to display” as follows:
 

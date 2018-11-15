@@ -9,13 +9,17 @@ Gets a specific date so that it can be referenced by other actions.
 
 ## How to use
 
+If you want to include the retrieved date in the field, select that field in the "Destination field (optional)" parameter.
+
+If you want to use the acquired date in another field instead of putting it in the field immediately, use the formula.
+
 When you perform an action set to Get a specific date, the date is stored internally as a result of the action.
 
 You can use a formula to get the saved date, for example, = $1.
 
 The saved date is in a format that can be set directly into the kintone date field.
 
-Example) How to set a retrieved date to a field
+Example) An example of using the acquired date as another action ("[Add record](../../record/insert_record/)")
 
 1.	Set up “Get a specific date”. The action number is number one.
 2.	[Set a value in a field](../../field/set_field_value), enter = $1 in Value. (If the action number for “Get a specific date” is number 2, say “= $2”)
@@ -35,7 +39,7 @@ You can also use a function in a formula without using an action.
 [Set a value in a field](../../field/set_field_value/) in the “Value” parameter, for example,
 
 ```
-=getDate("今月月初")
+=getDate("First of this month")
 ```
 
 You can specify a function, such as.
@@ -63,6 +67,10 @@ The “beginning of this month” part of the above example can be one of the fo
 -	Last Year
 -	First Day of Next Year
 -	Next Year End
+
+#### Set destination field (optional)
+
+Specify this when setting the acquired date in another field. If you do not set it in the direct field and you want to use the result in another action, you can omit it.
 
 ## Limitations
 

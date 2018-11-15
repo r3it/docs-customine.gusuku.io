@@ -42,3 +42,7 @@ Compare Value to set the value against which the field value is compared. The co
 
 -	When comparing, leading and trailing spaces are ignored.
 -	Strings are compared using Unicode values in standard lexical order. However, full-width, half-width and case are not sensitive.
+
+#### Field to set result (optional)
+
+Specify this when setting the calculation result to another field. If you do not set it in the direct field but want to use the calculation result in another action, you can omit it.

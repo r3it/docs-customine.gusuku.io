@@ -34,6 +34,7 @@ The table below shows which field types can be selected, what type of input they
 | Field Type        | Search Criteria Entry Form | Search Criteria Type |
 |-------------------|----------------------------|----------------------|
 | String (one line) | String Input               | = (equal to)         |
+| Lookup            | String Input               | = (equal to)         |
 | Link              | String Input               | = (equal to)         |
 | Number            | String Input               | = (equal to)         |
 | Calculation       | String Input               | = (equal to)         |

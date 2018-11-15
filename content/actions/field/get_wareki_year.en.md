@@ -9,6 +9,20 @@ Converts a string or date field into a Japanese calendar and sets it to another 
 
 ## How to use
 
+To set the converted era, the number of calendar years in the field, create that field in the application and select that field with "Set eraser" and "Set number of calendar years".
+
+If you wish to put the converted era and the number of calendar years in a field etc. as one character string like "Heisei 30 years" instead of registering it in separate fields, do as follows.
+
+1. Do not set "Set era name" and "Set number of calendar years" and leave it out.
+1. Set [Set value in field] (../ set_field_value) "and set its" value "using calculation function as follows.
+
+`` `
+= $ 1.era & $ 1.year & "Year"
+`` `
+
+- For part of $ 1, please specify the number of the action that set "convert the calendar year to Japanese calendar". For example, if the action number is 3, it is $ 3.
+- $ 1.era represents the era part such as "Heisei", and $ 1.year represents the year part.
+
 ### Parameters to set
 
 Specify the “Convert From Date”, “Set Gengo to” and “Set Japanese calendar years to”.
@@ -29,17 +43,21 @@ If you choose a single-line string field, the value must be set in the correct d
 
 #### The name of the era is set to
 
-Select the field for which you want to set the era name.
+Select the field for which you want to set the era name.  (optional)
 
 Only strings (one line) can be selected.
 
+If omitted, the era is not set in the field. It is possible to reference from other actions even if omitted.
+
 #### Japanese year set to
 
-Select the field for which you want to set Japanese year numbers.
+Select the field for which you want to set Japanese year numbers.  (optional)
 
 You can select a string (single line) or a numeric field.
 
 The first year of the era name is “1” instead of “1”.
+
+If omitted, the number of calendar years is not set in the field. It is possible to reference from other actions even if omitted.
 
 ## Limitations
 

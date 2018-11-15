@@ -9,16 +9,20 @@ Gets the day of the week from a date and makes it visible to other actions.
 
 ## How to use
 
+If you want to include the acquired day of the week in the field, select that field in the "Destination field (optional)" parameter.
+
+Instead of putting the day of the week in the field immediately, if you want to use it in other actions, use the formula.
+
 If you perform an action set to “Get the day of the week from date”, the day string is stored internally as the result of the action.
 
 You can use a formula to retrieve the saved day of the week, for example, = $1.
 
 The date field of kintone cannot be set as the day of the week will not contain any date information. It is possible to set fields such as “String (one line)”.
 
-Example) How to set the day of the week to a field such as “String (one line)”
+Example) An example of using the acquired day as another action ("[Add record](../../record/insert_record/)")
 
 1.	Set “Get the day of the week from date”. The action number is number one.
-2.	[Set a value in a field](../../field/set_field_value), enter = $1 in Value. (If the action number for “Get the day of the week from date” is number 2, say “= $2”)
+2.	In "Mapping" of [Add record](../../record/insert_record/), put "=$1" in the date field you want to set. (If the action number for “Get the day of the week from date” is number 2, say “= $2”)
 
 ### Parameters to set
 
@@ -57,6 +61,10 @@ If you select “Login User Language”, the user will be selected according to 
 Choose whether to display the long or short format.
 
 For Japanese long forms, the result is like Wednesday, and for short forms, the result is like Wednesday.
+
+#### Set destination field (optional)
+
+Specify this when setting the acquired date in another field. If you do not set it in the direct field and you want to use the result in another action, you can omit it.
 
 ## Limitations
 

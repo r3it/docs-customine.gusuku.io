@@ -5,6 +5,10 @@ weight: 1450
 ---
 ## Summary
 
+If you want to put the calculation result in another field, select that field in the "Set destination field (optional)" parameter.
+
+Instead of placing the calculation results in the field immediately, if you want to use it in other actions, use mathematical expressions.
+
 Adds or subtracts days, months, and years to a date. The results can be viewed from other action.
 
 ## How to use
@@ -15,10 +19,10 @@ You can use a formula to get the saved date, for example, = $1.
 
 The saved date is in a format that can be set directly into the kintone date field. However, there is no time information, so you cannot set it to a date and time field.
 
-Example) How to Set a Date in a Field
+Example) Example of using the result date as another action ([to add a record](../../record/insert_record/))
 
 1.	Set up “Calculate date”. The action number is number one.
-2.	[Set a value in a field](../../field/set_field_value), enter = $1 in Value. (If the action number for “Calculate date” is number 2, set “= $2”)
+2. In "[Add record](../../record/insert_record/)", under "Mapping", enter "=$ 1" for the date field you wish to set. (If the action number for “Calculate date” is number 2, set “= $2”)
 
 ### Parameters to set
 
@@ -55,3 +59,7 @@ You can also enter negative values. If “Right side value” is set to “-3”
 #### Calculated
 
 Select from [X days after], [X weeks after], [X months after], or [X years after].
+
+#### Field to set result (optional)
+
+Specify this when setting the calculation result to another field. If you do not set it in the direct field but want to use the calculation result in another action, you can omit it.

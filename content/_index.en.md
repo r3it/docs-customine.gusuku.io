@@ -5,8 +5,8 @@ date: 2018-10-01T14:07:50+09:00
 
 ## Welcome to Gusuku Customine Help
 
-This site is a website that provides documentation of [Gusuku Customine](https://customine.gusuku.io/).
+This site provides the documentation of [Gusuku Customine](https://customine.gusuku.io/).
 
-This site is a reference site of "Do" and "Condition". Please search from the menu on the left.
+You can start by selecting "DO" or "CONDITION" from the menu on the left panel of this page.
 
-For customer support including questions, FAQs, forums, please visit [https://support.gusuku.io/](https://support.gusuku.io/).
+For additional support, please visit [https://support.gusuku.io/](https://support.gusuku.io/en/support/home).

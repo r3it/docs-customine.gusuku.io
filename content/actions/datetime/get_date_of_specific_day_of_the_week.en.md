@@ -9,16 +9,20 @@ Gets the date of a specific day of the week relative to today so that other acti
 
 ## How to use
 
+If you want to include the retrieved date in the field, select that field in the "Destination field (optional)" parameter.
+
+If you want to use the acquired date in another field instead of putting it in the field immediately, use the formula.
+
 If you perform an action set to “Get the date of a specific day of the week”, the date will be stored internally as a result of the action.
 
 You can use a formula to get the saved date, for example, = $1.
 
 The saved date is in a format that can be set directly into the kintone date field.
 
-Example) How to set a retrieved date to a field
+Example) An example of using the acquired date as another action ("[Add record](../../record/insert_record/)")
 
 1.	Set “Get dates for a specific day of the week”. The action number is number one.
-2.	“”[Set a value in a field](../../field/set_field_value), enter = $1 in Value.(If the action number for “Get a specific day of the week” is number 2, say “= $2”)
+2.	In "Mapping" of [Add record](../../record/insert_record/), put "=$1" in the date field you want to set. (If the action number for “Get a specific day of the week” is number 2, say “= $2”)
 
 ### Parameters to set
 
@@ -37,6 +41,10 @@ Do not include “Next” today. The same is for “before”.For example, if to
 #### Day of the week
 
 Specifies the day of the week.
+
+#### Set destination field (optional)
+
+Specify this when setting the acquired date in another field. If you do not set it in the direct field and you want to use the result in another action, you can omit it.
 
 ## Limitations
 

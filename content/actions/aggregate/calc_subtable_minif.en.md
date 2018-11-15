@@ -41,8 +41,12 @@ The comparison value can be one of the following values:
 -	Results of other actions  
 	Compare to the result value of the registered action
 
-### About the Comparison Process
+##### About the Comparison Process
 
 -	When comparing, leading and trailing spaces are ignored.
 -	Strings are compared using Unicode values in standard lexical order.  
 	However, full-width, half-width and case are not sensitive.
+
+#### Field to set result (optional)
+
+Specify this when setting the calculation result to another field. If you do not set it in the direct field but want to use the calculation result in another action, you can omit it.

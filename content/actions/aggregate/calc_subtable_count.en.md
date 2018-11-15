@@ -17,3 +17,7 @@ Set up the Table.
 #### Table
 
 Select the table whose rows you want to count.
+
+#### Field to set result (optional)
+
+Specify this when setting the calculation result to another field. If you do not set it in the direct field but want to use the calculation result in another action, you can omit it.

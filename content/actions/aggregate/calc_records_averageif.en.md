@@ -51,6 +51,10 @@ Compare to the result value of already-registered action.
 - Text is compared by using Unicode value based on standard lexicographic order.
  However, double byte, single byte, and upper/lower case are not classified.
 
+#### Field to set result (optional)
+
+Specify this when setting the calculation result to another field. If you do not set it in the direct field but want to use the calculation result in another action, you can omit it.
+
 ## Things to Note
 
 Calculated results are not rounded.
