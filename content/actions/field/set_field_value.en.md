@@ -48,3 +48,5 @@ The following field type **CAN NOT** be used:
 -	Category
 -	Status
 -	Worker
+
+You can also select the "String (multiple lines)" field, but you can not enter a line break with the "Value" parameter. If you want to set "value" including line feeds, use "[Set Multi Line Text Field Value](../set_multi_line_text_value)".

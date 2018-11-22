@@ -48,6 +48,14 @@ The table below shows which field types can be selected, what type of input they
 | Radio buttons           | Drop-down                  | Include (selected items as search criteria) |
 | Drop-down               | Drop-down                  | Include (selected items as search criteria) |
 | Multi-selection         | Drop-down                  | Include (selected items as search criteria) |
+| Date         | Two String Input              | (check below.) |
+
+The search condition of the date is as follows.
+
+- The condition when inputting only the left side is "date >= left input condition"
+- The condition for inputting only on the right side is "date <= right input condition"
+- When both are entered, "date >= left input condition AND date <= right input condition"
+
 
 ## Limitations
 
@@ -62,3 +70,5 @@ Smartphone app is not supported. When running in the smartphone app, no error oc
 You cannot have more than one search form. [Set up a simple search form on the list screen](../create_search_form_eq) and “Set up a search form to search for keywords on the list screen”.
 
 If there is a duplicate list name in the app list settings, “The list was not available to get or to change. List “XXXX” has a duplicate name. Please change the name to a unique name.” error will appear.
+
+When entering the search condition of the date field, it is necessary to specify the date specification with a hyphen delimiter like "2018-11-05". If you enter it with a separator as in other formats, for example, "2018/11/5", you get an error "Date format is invalid" when searching. As of version 1.30, you need to type in characters, but we plan to improve it so that we can choose from the calendar in the future.

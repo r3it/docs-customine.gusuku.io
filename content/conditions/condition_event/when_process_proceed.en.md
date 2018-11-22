@@ -33,6 +33,8 @@ Select a status if you want the condition to fire only if the state at the time 
 
 If multiple statuses are selected, any one of the selected statuses matches will be OK.
 
+If several actions with the same name are set in the "process management" setting of the kintone application, it is not distinguished which one of the same name was executed. If you want to distinguish it, also specify "pre-change process management status" and "post-change process management status" together.
+
 For example, if you select Unprocessed and Processing for this parameter, an action that transitions from Unprocessed to Processing or In Progress to Completed will trigger a condition. Actions that transition from Completed to Processing do not trigger conditions.
 
 #### Post-Change Process Management Status

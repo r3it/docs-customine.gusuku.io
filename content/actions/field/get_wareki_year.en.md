@@ -14,7 +14,7 @@ To set the converted era, the number of calendar years in the field, create that
 If you wish to put the converted era and the number of calendar years in a field etc. as one character string like "Heisei 30 years" instead of registering it in separate fields, do as follows.
 
 1. Do not set "Set era name" and "Set number of calendar years" and leave it out.
-1. Set [Set value in field] (../ set_field_value) "and set its" value "using calculation function as follows.
+1. Set [Set value in field] (../set_field_value) "and set its" value "using calculation function as follows.
 
 `` `
 = $ 1.era & $ 1.year & "Year"
